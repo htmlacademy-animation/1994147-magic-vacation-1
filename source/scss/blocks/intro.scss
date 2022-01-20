@@ -72,6 +72,8 @@
   flex: none;
   width: 50rem;
   max-width: 50%;
+  opacity: 0;
+  animation: .5s opacity-up forwards;
 
   @media (min-width: $stop-scaling) {
     width: 500px;
@@ -86,6 +88,17 @@
   }
 }
 
+@keyframes opacity-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .intro__message {
   flex: none;
   width: 50.9rem;
@@ -93,6 +106,8 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
+  opacity: 0;
+  animation: .5s opacity-up forwards;
 
   @media (min-width: $stop-scaling) {
     width: 509px;

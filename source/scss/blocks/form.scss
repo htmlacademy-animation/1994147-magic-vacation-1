@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .form__label {
@@ -29,6 +30,10 @@
   }
 }
 
+@keyframes goLeft {
+  from {width: 6rem;position: relative}
+}
+
 .form__field {
   flex: none;
   margin-right: 3rem;
@@ -43,6 +48,11 @@
   border: 0;
   border-radius: 3rem;
   outline: none;
+  position: relative;
+  bottom: 0;
+  animation: 1s goLeft forwards;
+
+
 
   &:focus {
     border: 1px solid $c-purple;
@@ -80,12 +90,20 @@
 
 .form__button {
   flex-grow: 1;
+  position: relative;
+  right: 0;
+  width: 21rem;
+  max-width: 21rem;
+  min-width: 21rem;
+
 
   @media (orientation: portrait) {
     position: relative;
     flex: none;
     padding: 0;
     width: 4rem;
+    max-width: 4rem;
+    min-width: 4rem;
     height: 4rem;
     font-size: 0;
   }
@@ -96,12 +114,16 @@
     padding: 0;
     width: 6rem;
     height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
     font-size: 0;
   }
 
   @media (max-width: $mobile) and (orientation: landscape) {
     width: 4rem;
     height: 4rem;
+    max-width: 4rem;
+    min-width: 4rem;
   }
 
   svg {
