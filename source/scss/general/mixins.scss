@@ -58,3 +58,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@for $child from 0 through 3 {
+  .social-block:hover li:nth-child(#{$child}) {
+    transition: opacity 0.2s linear 0.1s * $child;
+  }
+}
