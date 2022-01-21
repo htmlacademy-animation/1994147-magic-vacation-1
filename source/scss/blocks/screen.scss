@@ -38,14 +38,19 @@
   z-index: 1;
 }
 
+.contentLoaded .screen__footer {
+  bottom: 0;
+}
+
 .screen__footer {
   position: absolute;
-  bottom: 0;
+  bottom: -41px;
   left: 0;
   right: 0;
   color: $c-dark;
   background-color: $c-light;
   z-index: 1;
+  transition: bottom .5s cubic-bezier(.52,.93,.46,.79);
 
   @media (max-width: $tablet) and (orientation: portrait) {
     width: 3.5rem;
