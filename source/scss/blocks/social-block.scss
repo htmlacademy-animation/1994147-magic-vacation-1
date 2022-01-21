@@ -15,7 +15,7 @@
 
 .contentLoaded .social-block__toggler::before {
   transform: translate(-50%, -50%) scale(1);
-  transition: .5s cubic-bezier(.52,.93,.46,.79);
+  transition: transform .5s cubic-bezier(.52,.93,.46,.79);
 }
 
 .social-block__toggler {

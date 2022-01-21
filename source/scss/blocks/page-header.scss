@@ -42,7 +42,7 @@
   color: $c-light;
   opacity: 0;
   transform: translateX(-15px);
-  transition: .5s cubic-bezier(.52,.93,.46,.79);
+  transition: opacity .5s cubic-bezier(.52,.93,.46,.79), transform .5s cubic-bezier(.52,.93,.46,.79);
 
   @media (min-width: $stop-scaling) {
     top: -5px;
@@ -137,7 +137,7 @@
 
 .contentLoaded .page-header__nav {
   opacity: 1;
-  transition: .5s cubic-bezier(.52,.93,.46,.79);
+  transition: opacity .5s cubic-bezier(.52,.93,.46,.79);
 }
 
 .page-header__nav {
@@ -191,7 +191,7 @@
         width: 100%;
         right: auto;
         left: 0;
-        transition: .5s cubic-bezier(.52,.93,.46,.79);
+        transition: width .5s cubic-bezier(.52,.93,.46,.79);
       }
     }
   }
