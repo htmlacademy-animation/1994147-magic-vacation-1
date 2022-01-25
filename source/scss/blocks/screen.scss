@@ -354,3 +354,19 @@
 .screen--rules {
   background-color: $c-dark;
 }
+
+.fade-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #5f458c;
+  z-index: 10;
+}
+
+.fade-background.active-prize {
+  top: -100vh;
+  transition: top .15s linear;
+
+}
