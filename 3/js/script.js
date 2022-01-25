@@ -10609,7 +10609,7 @@ __webpack_require__.r(__webpack_exports__);
             screenPrizes.classList.add('active');
             screenPrizes.classList.remove('screen--hidden');
             fadeBackground.classList.remove('active-prize');
-          }, 500);
+          }, 600);
         }
       } else {
         fadeBackground.classList.remove('active-prize');

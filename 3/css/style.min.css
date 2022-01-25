@@ -3613,7 +3613,7 @@ img {
 
 .fade-background.active-prize {
   top: -100vh;
-  transition: top 0.15s linear;
+  transition: top 0.25s linear;
 }
 
 .slider {
