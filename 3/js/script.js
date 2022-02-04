@@ -10801,8 +10801,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_result_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/result.js */ "./source/js/modules/result.js");
 /* harmony import */ var _modules_form_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/form.js */ "./source/js/modules/form.js");
 /* harmony import */ var _modules_social_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/social.js */ "./source/js/modules/social.js");
-/* harmony import */ var _modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/prize-hide-screen.js */ "./source/js/modules/prize-hide-screen.js");
-/* harmony import */ var _modules_full_page_scroll_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/full-page-scroll.js */ "./source/js/modules/full-page-scroll.js");
+/* harmony import */ var _modules_full_page_scroll_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/full-page-scroll.js */ "./source/js/modules/full-page-scroll.js");
+/* harmony import */ var _modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/prize-hide-screen.js */ "./source/js/modules/prize-hide-screen.js");
 // modules
 
 
@@ -10824,9 +10824,9 @@ Object(_modules_chat_js__WEBPACK_IMPORTED_MODULE_4__["default"])();
 Object(_modules_result_js__WEBPACK_IMPORTED_MODULE_5__["default"])();
 Object(_modules_form_js__WEBPACK_IMPORTED_MODULE_6__["default"])();
 Object(_modules_social_js__WEBPACK_IMPORTED_MODULE_7__["default"])();
-Object(_modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_8__["default"])();
+Object(_modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_9__["default"])();
 
-const fullPageScroll = new _modules_full_page_scroll_js__WEBPACK_IMPORTED_MODULE_9__["default"]();
+const fullPageScroll = new _modules_full_page_scroll_js__WEBPACK_IMPORTED_MODULE_8__["default"]();
 fullPageScroll.init();
 
 
