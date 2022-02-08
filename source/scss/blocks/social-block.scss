@@ -13,6 +13,11 @@
   }
 }
 
+.contentLoaded .social-block__toggler::before {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform .5s cubic-bezier(.52,.93,.46,.79);
+}
+
 .social-block__toggler {
   @include btn-reset;
   position: relative;
@@ -39,6 +44,7 @@
     background-color: $c-light;
     border: 2px solid $c-light;
     z-index: -1;
+    transform: translate(-50%, -50%) scale(.6);
   }
 
   svg {
