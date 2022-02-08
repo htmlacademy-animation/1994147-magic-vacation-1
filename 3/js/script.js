@@ -10784,6 +10784,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./source/js/modules/window-loaded.js":
+/*!********************************************!*\
+  !*** ./source/js/modules/window-loaded.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (() => {
+  window.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('body').classList.add('contentLoaded');
+  });
+});
+
+
+/***/ }),
+
 /***/ "./source/js/script.js":
 /*!*****************************!*\
   !*** ./source/js/script.js ***!
@@ -10801,9 +10819,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_result_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/result.js */ "./source/js/modules/result.js");
 /* harmony import */ var _modules_form_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/form.js */ "./source/js/modules/form.js");
 /* harmony import */ var _modules_social_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/social.js */ "./source/js/modules/social.js");
-/* harmony import */ var _modules_full_page_scroll__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/full-page-scroll */ "./source/js/modules/full-page-scroll.js");
-/* harmony import */ var _modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/prize-hide-screen.js */ "./source/js/modules/prize-hide-screen.js");
+/* harmony import */ var _modules_window_loaded_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/window-loaded.js */ "./source/js/modules/window-loaded.js");
+/* harmony import */ var _modules_full_page_scroll__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/full-page-scroll */ "./source/js/modules/full-page-scroll.js");
+/* harmony import */ var _modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/prize-hide-screen.js */ "./source/js/modules/prize-hide-screen.js");
 // modules
+
 
 
 
@@ -10824,9 +10844,10 @@ Object(_modules_chat_js__WEBPACK_IMPORTED_MODULE_4__["default"])();
 Object(_modules_result_js__WEBPACK_IMPORTED_MODULE_5__["default"])();
 Object(_modules_form_js__WEBPACK_IMPORTED_MODULE_6__["default"])();
 Object(_modules_social_js__WEBPACK_IMPORTED_MODULE_7__["default"])();
-Object(_modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_9__["default"])();
+Object(_modules_window_loaded_js__WEBPACK_IMPORTED_MODULE_8__["default"])();
+Object(_modules_prize_hide_screen_js__WEBPACK_IMPORTED_MODULE_10__["default"])();
 
-const fullPageScroll = new _modules_full_page_scroll__WEBPACK_IMPORTED_MODULE_8__["default"]();
+const fullPageScroll = new _modules_full_page_scroll__WEBPACK_IMPORTED_MODULE_9__["default"]();
 fullPageScroll.init();
 
 
