@@ -159,6 +159,8 @@
     border-radius: 50%;
     line-height: 5rem;
     text-align: center;
+    transform: scale(0);
+    color: rgba(255,255,255,0);
 
     @media (max-width: $tablet) and (orientation: portrait) {
       top: 1rem;
@@ -179,6 +181,8 @@
 
   p {
     margin: 0;
+    transform: translateX(10px);
+    opacity: 0;
 
     @media (max-width: $tablet) and (orientation: portrait) {
       min-height: calc(1.4rem * 2.2);
