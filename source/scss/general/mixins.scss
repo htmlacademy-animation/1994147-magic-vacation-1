@@ -64,3 +64,15 @@
     transition: opacity 0.2s linear 0.1s * $child;
   }
 }
+
+@for $delay from 1 through 4 {
+  .rules__item:nth-child(#{$delay})::before {
+    animation: 0.25s showBullit 0.1s * $delay cubic-bezier(.3,.5,.4,1.6) forwards;
+  }
+}
+
+@for $shoq from 1 through 4 {
+  .rules__item:nth-child(#{$shoq}) p {
+    animation: 0.5s shoq 0.1s * $shoq linear forwards;
+  }
+}
