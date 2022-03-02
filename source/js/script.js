@@ -10,6 +10,7 @@ import social from './modules/social.js';
 import windowLoaded from "./modules/window-loaded.js";
 import FullPageScroll from './modules/full-page-scroll';
 import prizeHideScreen from "./modules/prize-hide-screen.js";
+import animationText from "./modules/animationText";
 
 // init modules
 mobileHeight();
@@ -22,6 +23,7 @@ form();
 social();
 windowLoaded();
 prizeHideScreen();
+animationText();
 
 const fullPageScroll = new FullPageScroll();
 fullPageScroll.init();
