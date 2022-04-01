@@ -331,3 +331,18 @@
     width: 100%;
   }
 }
+
+.text__word {
+  display: inline-block;
+  overflow: hidden;
+
+  & span {
+    will-change: transform;
+    transform: translate3d(0, 13rem, 0);
+    display: inline-block;
+  }
+}
+
+.textAnimHead.active .text__word > span {
+  transform: translate3d(0, 2rem, 0);
+}
